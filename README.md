@@ -1,7 +1,9 @@
-# ILO-Youth-Unemployment
+# Readme
 
-The purpose of this repository is to transform the youth unemployment data into a required format for data insight generation. The repository includes original data and Jupyter Notebook as well as the transformed data.
+The purpose of this repository is to store transformed data that will be used for insight generation. We saved the details of the process in 'data_transformation.ipynb' Jupyter Notebook.
 
-Data "Unemployment, youth total (% of total labor force ages 15-24)” collection from the World Bank. This data collection contains information about estimates of the youth unemployment rate across countries and over time.(https://data.worldbank.org/indicator/SL.UEM.1524.ZS)
+## Data 
+The International Labour Organization (ILO) is a United Nations agency whose mandate is to advance social and economic justice through setting international labour standards. Data “Unemployment, youth total (% of total labor force ages 15-24)” from ILO that contains information about estimates of the youth unemployment rate across countries and over time. 
 
-The Jupyter Notebook is a written Python program language that reads the youth unemploymnt data to transform into a required format for data insight generation.
+We extracted 37 OECD countries' data and transformed the data to an easy-to-process format and saved it to a new CSV file called “transformed_data.csv” in this repository.
+ 
